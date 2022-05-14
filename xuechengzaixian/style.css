@@ -20,6 +20,20 @@ li {
     list-style: none;
 }
 
+/* 清除浮动 */
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom:1;
+}
+
 .header {
     height: 42px;
     margin: 30px auto;
@@ -222,7 +236,6 @@ li {
 
 .box {
     margin-top: 35px;
-    height: 3000px;
 }
 
 .box .box-hd {
@@ -278,4 +291,9 @@ li {
     margin-left: 22px;
     font-size: 12px;
     color: #ff7c2d;
+}
+
+.footer {
+    height: 350px;
+    background-color: pink;
 }
