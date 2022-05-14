@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>淘宝焦点图</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .ad {
+            position: relative;
+            margin: 300px auto;
+            width: 520px;
+            height: 280px;
+        }
+
+        .ad img {
+            width: 520px;
+            height: 280px;
+        }
+
+        .ad .prev,
+        .ad .next {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            width: 20px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: #fff;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .ad .prev {
+            left: 0px;
+            border-radius: 0px 15px 15px 0px;
+        }
+
+        .ad .next {
+            right: 0px;
+            border-radius: 15px 0px 0px 15px;
+        }
+
+        .ad .nav {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            margin-left: -35px;
+            width: 70px;
+            height: 13px;
+            background-color: rgba(255, 255, 255, 0.4);
+            border-radius: 6px 6px 6px 6px;
+        }
+
+        .ad .nav li {
+            float: left;
+            margin: 3px 3px;
+            height: 8px;
+            width: 8px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+
+        .ad .nav .selected {
+            background-color: #ff5000;
+        }
+    </style>
+</head>
+<body>
+    <div class="ad">
+        <img src="./ad.png" alt="定位测试图">
+        <a href="#" class="prev">&lt;</a>
+        <a href="#" class="next">&gt;</a>
+        <ul class="nav">
+            <li class="selected"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>
