@@ -43,3 +43,22 @@
     font-family: "iconfont" !important;
     margin-left: 6px;
 }
+
+/* header */
+.header {
+    position: relative;
+    height: 105px;
+}
+
+.header .logo {
+    position: absolute;
+    top: 25px;
+}
+
+.header .logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0px;
+}
