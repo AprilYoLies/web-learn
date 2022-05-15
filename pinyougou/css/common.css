@@ -1,4 +1,45 @@
+/* 版心 */
 .w {
     width: 1200px;
     margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style_red {
+    color: red;
+}
+
+/* 快捷导航栏 */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut .fl ul li {
+    float: left;
+}
+
+.shortcut .fr ul li {
+    float: left;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    margin: 9px 15px 0;
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+}
+
+.down-arrow-icon::after {
+    content: '\ed50';
+    font-family: "iconfont" !important;
+    margin-left: 6px;
 }

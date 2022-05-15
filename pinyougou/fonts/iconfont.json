@@ -1,0 +1,37 @@
+{
+  "id": "3402247",
+  "name": "品优购",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "29649811",
+      "name": "arrow-right",
+      "font_class": "arrow-right",
+      "unicode": "ed4e",
+      "unicode_decimal": 60750
+    },
+    {
+      "icon_id": "29649812",
+      "name": "arrow-left",
+      "font_class": "arrow-left",
+      "unicode": "ed4f",
+      "unicode_decimal": 60751
+    },
+    {
+      "icon_id": "29649813",
+      "name": "arrow-down",
+      "font_class": "arrow-down",
+      "unicode": "ed50",
+      "unicode_decimal": 60752
+    },
+    {
+      "icon_id": "29649822",
+      "name": "arrow-up",
+      "font_class": "arrow-up",
+      "unicode": "ed51",
+      "unicode_decimal": 60753
+    }
+  ]
+}
