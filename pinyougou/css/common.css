@@ -254,3 +254,27 @@ footer .custom_service .service_info h4 {
 footer .custom_service .service_info p {
     font-size: 12px;
 }
+
+footer .service_list {
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+footer .service_list dl {
+    float: left;
+    padding-left: 52px;
+    width: 200px;
+}
+
+footer .service_list dl:last-child {
+    padding-left: 0px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+footer .service_list dl dt {
+    margin-bottom: 11px;
+    font-size: 16px;
+    color: #333;
+}
