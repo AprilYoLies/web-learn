@@ -278,3 +278,16 @@ footer .service_list dl dt {
     font-size: 16px;
     color: #333;
 }
+
+.copyright_info {
+    text-align: center;
+}
+
+.copyright_info .links {
+    margin: 18px auto 14px;
+}
+
+.copyright_info .links span {
+    display: inline-block;
+    margin: 0px 15px;
+}
