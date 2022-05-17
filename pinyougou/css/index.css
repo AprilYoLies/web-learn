@@ -89,3 +89,20 @@
 .small_ad {
     margin-top: 5px;
 }
+
+.recommend {
+    height: 163px;
+    margin-top: 12px;
+}
+
+.recommend .recommend_hd {
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.recommend .recommend_bd li {
+    float: left;
+}
