@@ -1,0 +1,91 @@
+.main {
+    margin-top: 10px;
+    margin-left: 220px;
+    width: 980px;
+    height: 455px;
+}
+
+.main .focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4d4d4;
+}
+
+.newsflash .new-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4d4d4;
+    padding: 0 15px;
+}
+
+.newsflash .new-hd h5 {
+    font-size: 14px;
+}
+
+.newsflash .new-hd a::after {
+    content: '\ed4e';
+    font-family: "iconfont" !important;
+}
+
+.newsflash .new-bd li {
+    margin-top: 7px;
+    margin-left: 10px;
+    /* 省略号显示 */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.newsflash .lifeservice {
+    overflow: hidden;
+    height: 209px;
+    width: 250px;
+    border-left: 1px solid #e4d4d4;
+    border-right: 1px solid #e4d4d4;
+    border-bottom: 1px solid #e4d4d4;
+}
+
+.newsflash .lifeservice ul {
+    width: 252px;
+}
+
+.newsflash .lifeservice li {
+    float: left;
+    text-align: center;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4d4d4;
+    border-bottom: 1px solid #e4d4d4;
+}
+
+.newsflash .lifeservice li:nth-child(4n) {
+    padding-right: 3px;
+}
+
+.newsflash .lifeservice .minipic {
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    width: 19px;
+    height: 24px;
+}
+
+.newsflash .lifeservice .minipic img {
+    width: 100%;
+    height: 100%;
+}
+
+.small_ad {
+    margin-top: 5px;
+}
